@@ -9,6 +9,12 @@ h1 {
   color: #031D44;
 }
 
+.timeline-icon img {
+  display: inline-block;
+  height: 45%;
+  width: 45%;
+}
+
 .white-card {
   background-color: #FFFFFF;
   border-radius: 0.25em;
@@ -54,6 +60,20 @@ h1 {
   display: block;
 }
 
+.link {
+  display:inline;
+  text-decoration-line: underline;
+  text-decoration-color:#fff;
+  font-weight: normal;
+}
+
+.link:hover, .link:focus {
+  cursor: pointer;
+  text-decoration-color: #031D44;
+  color: #031D44;
+  transition: 0.3s;
+}
+
 #btn-scroll {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -74,8 +94,6 @@ h1 {
   background-color: #031D44;
   color: #fff;
 }
-
-
 
 
 /* TIMELINE CSS */
