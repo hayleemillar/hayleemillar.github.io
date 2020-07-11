@@ -1,5 +1,6 @@
 body {
-  background-color: #224870;
+  /* background-color: #224870; */
+  background-color: #326BA7;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -80,8 +81,9 @@ h1 {
 
 .link:hover, .link:focus {
   cursor: pointer;
-  text-decoration-color: #031D44;
-  color: #031D44;
+  /* text-decoration-color: #031D44; */
+  text-decoration-color: #042B66;
+  color: #042B66;;
   transition: 0.3s;
 }
 
@@ -91,10 +93,10 @@ h1 {
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
-  border: medium solid #031D44; /* Remove borders */
+  border: medium solid #042B66;; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: transparent; /* Set a background color */
-  color: #031D44; /* Text color */
+  color: #042B66;; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 10px; /* Some padding */
   border-radius: 5px; /* Rounded corners */
@@ -102,7 +104,7 @@ h1 {
 }
 
 #btn-scroll:hover {
-  background-color: #031D44;
+  background-color: #042B66;;
   color: #fff;
 }
 
@@ -252,7 +254,8 @@ h1 {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 11.25rem;
-  background-color: #031D44;
+  /* background-color: #031D44; */
+  background-color: #042B66;
   position: fixed;
   left: -8.75rem;
 }
