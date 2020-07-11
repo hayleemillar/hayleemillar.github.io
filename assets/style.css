@@ -2,6 +2,11 @@ body {
   background-color: #224870;
   color: #fff;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+body * {
+  font-weight: 300;
 }
 
 h1 {
