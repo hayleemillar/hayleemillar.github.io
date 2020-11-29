@@ -102,14 +102,12 @@ h1 {
     z-index: 99;
     /* Make sure it does not overlap */
     border: medium solid #042B66;
-    ;
     /* Remove borders */
     outline: none;
     /* Remove outline */
     background-color: transparent;
     /* Set a background color */
     color: #042B66;
-    ;
     /* Text color */
     cursor: pointer;
     /* Add a mouse pointer on hover */
@@ -124,6 +122,20 @@ h1 {
     background-color: #042B66;
     ;
     color: #fff;
+}
+
+.mimic-button {
+    border: medium solid white;
+    background-color: transparent;
+    padding: 10px;
+    /* Some padding */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: 0.3s;
+}
+
+.mimic-button:hover {
+    border-color: #042B66;
 }
 
 
