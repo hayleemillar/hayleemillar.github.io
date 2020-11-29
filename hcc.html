@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Haylee Millar -- HCC</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+    <!-- Compressed JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+    <h1 class="text-center" style="margin-top:20px;">Roots Usability Testing -- A Human Centered Computing Project</h1>
+    <h2 class="text-center"><i>by Haylee Millar</i></h2>
+    <h2 class="text-center"><i>IN PROGRESS</i></h2>
+
+
+    <div class="hcc">
+        <div style="width:80%;margin:0 auto;margin-top:80px;padding-bottom: 80px;">
+            <div class="hcc-section">
+                <h1>Introduction</h2>
+                    <hr style="margin-left:0;">
+                    <h2>What is Roots?</h2>
+                    <p class="text-justify">
+                        Roots is a subscription-based platform aimed to make subscription management to multiple independently-hosted websites easier.<br> Let's start with an example to clarify. You have subscriptions to a few different [fictitious] websites:
+                        My News Today, Sewing Patterns, and Latest Video Games. Each of them are separately managed websites with different URLs and different subscription packages. With the current Internet offerings, each website would have their own
+                        sign up system with payment process attached. There would be no central way to manage or view your subscriptions to all of these websites at once. With Roots, users have access to a platform where they can manage existing subscriptions
+                        and also explore for new ones. The burden is taken off of the user with easier management.
+                    </p>
+
+                    <h2>Problem Statement</h2>
+                    <p class="text-justify">
+                        The goal of this project is to determine the proper design for user subscription management because if the user experience is poor, then the platform will fail.
+                    </p>
+            </div>
+
+
+            <div class="hcc-section">
+                <h1>Background</h1>
+                <hr style="margin-left:0;">
+                <h2>Introduction</h2>
+                <h3>Content Creators & Digital Media</h3>
+                <p class="text-justify">
+                    Since the birth of the World Wide Web in 1993, digital media has been a part of the Internet landscape. Digital media can be defined as some form of either information or entertainment with the aim of being consumed by others through technological means
+                    like computers, tablets, and cellphones. It is in the 90s when traditional analog media like radios and magazines fell to give way for other forms of entertainment on the Internet. Media has transformed to include audio, video, social
+                    media, advertising, news, literature, as well as others [3].
+                </p>
+                <p class="text-justify">
+                    For companies to be successful in regards to their digital media, they must find a way to gain revenue. The first step is to ensure there is a following for the work being created. A substantial following can be achieved through interacting with users
+                    on various social media platforms and running advertisement (ad) campaigns. Once an interest for the media has been established and an audience has been built, the next step is monetization [5].
+                </p>
+                <h3>Why Subscription-based?</h3>
+                <p class="text-justify">
+                    There is an abundance of free media available on the Internet. Thus, creators of digital media must compete with a very low reference for the price point of comparison if they wish to monetize their content [9]. In such a free-centric environment creators
+                    are left with two main models: advertisement-based and subscription-based.</p>
+                <p class="text-justify">
+                    Online advertising, which made up 41% of all advertising in 2017, has become a very common part of the Internet. Their appeal is high in the fact users are not required to provide monetary compensation to receive content. Instead, the user’s attention
+                    is the commodity. When websites launch ad campaigns, their ads are then displayed to a choice set of users throughout a website’s content on other participating websites. The very nature of sprinkling ads within and beside content
+                    competes against the creator’s content for the user’s attention. The ad could be interesting to the user, or it could be irritating, but is still nonetheless decidedly distracting. Ads are usually not totally random, but they can be
+                    repetitive. It is not uncommon to use repetition as a tactic for capturing the user’s attention, which can become annoying if the ad is of no interest to the user [4].
+                </p>
+                <div class="media-object text-center">
+                    <div class="media-object-section" style="margin:0 auto">
+                        <div class="thumbnail">
+                            <img src="assets/imgs/hcc/search-pizza.png" alt="google ads" style="width:40rem;"></img>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-justify" style="width:40rem;margin:0 auto;margin-bottom:20px;"><em>Source: https://www.google.com/</em>. An example of distracting ads. The results list is not viewable on initial page load, only ads are.</p>
+                <p class="text-justify">
+                    The other option is a subscription-based model, where users pay some recurring fee in return for online content. The user’s whole attention is on the media without any ad distractions. User experience becomes improved while maintaining a viable business
+                    model. However, as previously mentioned, consumers of online content are often unwilling to pay for content due to vast amounts of free media online [9]. With time and enough user support, subscription-supported content can become
+                    more widely accepted by Internet users.
+                </p>
+                <div class="media-object text-center">
+                    <div class="media-object-section" style="margin:0 auto">
+                        <div class="thumbnail">
+                            <img src="assets/imgs/hcc/hm-tiers.png" alt="patreon tiers list example" style="width:40rem;"></img>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-justify" style="width:40rem;margin:0 auto;margin-bottom:20px;"><em>Source:https://www.patreon.com/juicyscoop</em>. An example of subscription tiers.</p>
+                <p class="text-justify">
+                    The subscription-based model is the focus of this thesis, as advertisements have become more and more ineffective as time has progressed. It is clear there is potential to make a profit from it but not to what degree [4]. Using traditional practices to
+                    place ads within content, the ads can become intrusive and degrading to the user experience. The problem not only lies within the model itself, though; Internet users have begun using 3rd party ad blockers to personally improve their
+                    experience. Such use of blockers leads to a loss in income through ads, as they are no longer being seen or clicked on by users. Without user clicks, the ads are not creating a monetary return. Considering the drawbacks and resistance
+                    against using ads, the primary model of this paper for monetizing digital media will be a subscription model.
+                </p>
+
+                <h2>Background Research</h2>
+                <h3>Existing Platforms & Their Pitfalls</h3>
+                <p class="text-justify">
+                    Popular websites like Patreon, Memberful, and Podia exist on the Internet as ways to monetize digital content through a subscription model. Patreon is a platform that has accrued over 100,000 content creators. Each creator has their own page on Patreon
+                    where they post content like videos, podcasts, and blogs. Patreon has three tiers for creators to choose from. The lowest tier is a 5% transaction fee plus payment processing, which offers a landing page for the creator, communication
+                    (email, direct messaging), and free workshop videos. The middle tier is an 8% transaction fee plus payment processing, which offers the above plus membership tiers, analytics, the ability to offer limited-time deals, live-streamed
+                    workshops from creators, integration of other apps (like Facebook, for example), and priority customer support. The top tier of Patreon is a 12% transaction fee plus payment processing, which offers the above plus a dedicated partner
+                    manager (a Patreon employee), the ability to sell merchandise, and multiple accounts for the ability to accommodate a team [7].
+                </p>
+                <p class="text-justify">
+                    Patreon bears a few issues as a platform in the scope of the goals of this paper. The first is it restricts creators from presenting their content the exact way they please. Every creators’ page is white with the same minimal orange accents. Oftentimes
+                    it is difficult to distinguish between posts because of the lack of color contrast. Second, the creators’ posts may only be viewed in a linear format, each post being contained in a card. While this linear layout may be filtered in
+                    different ways, there is no explicit way to search through a creator’s content. If creators had the ability to manage and create their page exactly the way they wanted it to be, they could include a search feature if they felt it necessary.
+                </p>
+                <div class="media-object text-center">
+                    <div class="media-object-section" style="margin:0 auto">
+                        <div class="thumbnail">
+                            <img src="assets/imgs/hcc/hm-patreon.png" alt="patreon creator landing page" style="width:40rem;"></img>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-justify" style="width:40rem;margin:0 auto;margin-bottom:20px;"><em>Source: https://www.patreon.com/juicyscoop</em>. Heather McDonald's landing page, which bears the same design for all creators.</p>
+
+                <div class="media-object text-center">
+                    <div class="media-object-section" style="margin:0 auto">
+                        <div class="thumbnail">
+                            <img src="assets/imgs/hcc/hm-posts.png" alt="patreon creator post stream" style="width:40rem;"></img>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-justify" style="width:40rem;margin:0 auto;margin-bottom:20px;"><em>Source: https://www.patreon.com/juicyscoop</em>. Heather McDonald's post stream, which bears the same design for all creators.</p>
+                <p class="text-justify">
+                    Memberful, a Patreon company, provides a technology that integrates into the creator’s website, WordPress or self-hosted, and has three different pricing plans. The Starter plan ($0/month + 10% transaction fee) allows creators to have 2 plans (essentially
+                    websites), and free website integrations. The Pro plan ($25/month + 4.9% transaction fee) allows creators have unlimited plans, all service integrations (Mailchimp, Discourse, etc.), ability to have coupon codes, multiple accounts
+                    to accommodate a team, enable a free member tier, analytics, API+ webhooks, and custom branding. The Premium plan ($200/month + 4.9% transaction fee) allows creators to have all of the above plus the ability to sell group subscriptions
+                    (for example, to an organization of sorts) and the removal of all Memberful branding [6]. Memberful is the closest technology to the one to be proposed, but it misses the ease of user experience on the Internet on a larger scale. If
+                    users had one platform to manage their subscriptions to their favorite content creators’ websites, like Patreon does with their creator pages, then they are able to consume content more easily, thus enhancing the user experience. Users
+                    might be more willing to spend their money and contribute to creators if they can have an overview of their overall subscription spending.
+                </p>
+                <div class="media-object text-center">
+                    <div class="media-object-section" style="margin:0 auto">
+                        <div class="thumbnail">
+                            <img src="assets/imgs/hcc/memberful.png" alt="memberful main page" style="width:40rem;"></img>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-justify" style="width:40rem;margin:0 auto;margin-bottom:20px;"><em>Source: https://memberful.com/</em>. Memberful's home page.</p>
+
+                <p class="text-justify">
+                    Podia is similar to Patreon such that content creators have their websites hosted through Podia. There are over 25,000 content creators that use Podia. It has two different pricing plans. The Mover ($39/month) allows creators to have their own page, communication
+                    (email, direct messaging), unlimited hosting, free migrations, 7 days/week customer service, and online courses/downloads for additional help. The Shaker ($79/month) allows creators to have in addition to the above-mentioned the ability
+                    to implement membership subscriptions, a blog, embedded checkout, affiliate marketing, and the ability to use 3rd party code. Podia differs from Patreon in the way it has no transaction fees. The downfall to Podia is the creator cannot
+                    choose where their website is hosted. Since Podia handles the hosting, creators have no way to quickly access or manage their website [8].
+                </p>
+                <div class="media-object text-center">
+                    <div class="media-object-section" style="margin:0 auto">
+                        <div class="thumbnail">
+                            <img src="assets/imgs/hcc/podia.png" alt="memberful main page" style="width:40rem;"></img>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-justify" style="width:40rem;margin:0 auto;margin-bottom:20px;"><em>Source: https://podia.com/</em>. Podia's home page.</p>
+
+                <p class="text-justify">
+                    No current platform makes the subscription model easy for the media consumer while also keeping the media ownership rights with the creator. The following proposed platform will include a central site for users to easily manage their subscriptions to
+                    creators’ websites. Users will also be more aware of their payment information being held by only one company. If a user is on a Premium Memberful website, there is no Memberful branding. The user may not fully be aware of who has
+                    their payment information. If users had a central place to manage subscriptions, the ambiguity would be lifted. As for the content creators, the proposed platform will appeal to those who wish to have more control and ownership over
+                    their media, not just the creation of the content. Patreon is better suited for such creators who desire to strictly produce content. Those who desire more involvement and for their users to have a more streamlined experience may opt
+                    to choose the platform to be discussed.
+                </p>
+                <h3>Web Accessibility</h3>
+                <p class="text-justify">
+                    The Internet is infamous for not considering diversity within the human race. This has led to a prominence of poor designs. Blind users are among the most affected despite the advancements in screen readers [1].
+                </p>
+                <p class="text-justify">
+                    While the Web Content Accessibility Guidelines (WCAG) were created by the Web Accessibility Initiative of the World Wide Web Consortium (W3C) to promote accessibility and inclusivity, WCAG 2.0 only covers about half of the various issues found by blind
+                    users [1]. Wille et. al provide structured ways to assess accessibility based on their user tests and associated research. WCAG provides a great base for all websites to start with and then continue from there [10].
+                </p>
+                <p class="text-justify">
+                    It should be noted that blind user experience should also be considered in a holistic manner due to both objective and subjective qualities about the overall user experience. Aizpurua et. al studied 11 participants of varying expertise using screen readers
+                    to interact with the Internet. They were particularly interested in the perceived Web accessibility (PWA), finding UX attributes to be highly connected to PWA. Researchers found feelings like interest and frustration to be more familiar
+                    to users and revealed as what they used for PWA, particularly for blind people [1].
+                </p>
+                <p class="text-justify">
+                    The Title III of the Americans with Disabilities Act (ADA) has long left out the nonphysical realm of the Internet in its considerations. The ADA only applies to physical places. Shah argues online content is a critical missing component to the ADA and
+                    must be considered, whether that be strictly to the ADA as it is written or through a more general interpretation of it. Changing the way the guidelines are interpreted are critical for users of different abilities that wish to use
+                    the Internet, as the current tests fail to account for online content [2].
+                </p>
+
+                <h2>Proposed Platform</h2>
+                <p class="text-justify">
+                    The central component of the proposed platform is a website where both users and content creators can manage their accounts. Users will be able to view and easily manage their subscriptions to creators on the platform. In addition, they will be able to
+                    search through descriptions and small landing pages for creators to find new media they like. Users also will be able to manage their payment information on the platform’s website, allowing them to know their sensitive information
+                    is being held by only one company. Creators will only have access to basic user information of those who are subscribed to them.
+                </p>
+                <p class="text-justify">
+                    The platform will allow creators to manage their account information and landing page. Help pages and customer service via e-mail would also be provided, similarly to the platforms described in the background section. Other than the main website for account
+                    management, creators have full control over their websites. The only requirement is for creators to ensure on their website a way to determine if users are authorized to view certain content. The platform will provide code snippets
+                    and support, taking great care not to invade the creator’s space any further.
+                </p>
+            </div>
+
+
+            <div class="hcc-section">
+                <h1 style="margin-top:40px;">Research Question(s)</h1>
+                <hr style="margin-left:0;">
+                <p class="text-justify">
+                    One main component of concern for design is the management of content subscriptions for users. If subscriptions are not easy to add, edit, and remove, then the website will be rendered fairly useless. Its strength lies in users being able to see the aggregated
+                    list and making informed decisions based off of it. They may want to know how much they are spending on each subscription, or how many they might have. Nevertheless, it is a design consideration that needs to be made and will be the
+                    main focus of the tests.
+                </p>
+            </div>
+
+
+            <div class="hcc-section">
+                <h1 style="margin-top:40px;">Design Figure</h1>
+                <hr style="margin-left:0;">
+                <img src="assets/imgs/hcc/diagram.png" alt="project diagram"></img>
+            </div>
+
+
+            <div class="hcc-section">
+                <h1 style="margin-top:40px;">1st Design Iteration</h1>
+                <hr style="margin-left:0;">
+            </div>
+
+
+            <div class="hcc-section">
+                <h1 style="margin-top:40px;">2nd Design Iteration</h1>
+                <hr style="margin-left:0;">
+            </div>
+
+
+            <div class="hcc-section">
+                <h1 style="margin-top:40px;">Overall Results and Findings</h1>
+                <hr style="margin-left:0;">
+            </div>
+
+
+            <div class="hcc-section">
+                <h1 style="margin-top:40px;">Design Recommendations</h1>
+                <hr style="margin-left:0;">
+            </div>
+
+
+            <div class="hcc-section">
+                <h1 style="margin-top:40px;">Conclusions and Limitations</h1>
+                <hr style="margin-left:0;">
+            </div>
+
+
+            <div class="hcc-section">
+                <h1 style="margin-top:40px;">Bibliography</h1>
+                <hr style="margin-left:0;">
+                <p class="text-justify">[1] Amaia Aizpurua, Simon Harper, and Markel Vigo. 2016. Exploring the relationship between web accessibility and user experience. International Journal of Human-Computer Studies 91, (July 2016), 13–23. DOI:https://doi.org/10.1016/j.ijhcs.2016.03.008</p>
+                <p class="text-justify">[2] Deeva V. Shah. Web Accessibility for Impaired Users: Applying Physical Solutions to Digital Problems. 25.</p>
+                <p class="text-justify">[3] DigitalMarketing.org. What is a Content Creator? Digital Marketing Blog. Retrieved November 14, 2020 from https://www.digitalmarketing.org/blog/what-is-a-content-creator</p>
+                <p class="text-justify">[4] Yuping Liu-Thompkins. 2019. A Decade of Online Advertising Research: What We Learned and What We Need to Know. Journal of Advertising 48, 1 (January 2019), 1–13. DOI:https://doi.org/10.1080/00913367.2018.1556138</p>
+                <p class="text-justify">[5] Maryville University. What Is Digital Media? All You Need to Know About This Booming Industry. Online Degrees. Retrieved November 14, 2020 from https://online.maryville.edu/blog/what-is-digital-media/</p>
+                <p class="text-justify">[6] Memberful. Get started now. Pick your plan later. Retrieved November 14, 2020 from https://memberful.com/pricing/</p>
+                <p class="text-justify">[7] Patreon. We only succeed when you succeed. Retrieved November 14, 2020 from https://www.patreon.com/product/pricing</p>
+                <p class="text-justify">[8] Podia. Get the power of 5+ tools for the price of one. Retrieved November 14, 2020 from https://www.podia.com/pricing</p>
+                <p class="text-justify">[9] Girish Punj. 2015. The relationship between consumer characteristics and willingness to pay for general online content: Implications for content providers considering subscription-based business models. Mark Lett 26, 2 (June 2015),
+                    175–186. DOI:https://doi.org/10.1007/s11002-013-9273-y</p>
+                <p class="text-justify">[10] Kathrin Wille, Reiner R. Dumke, and Cornelius Wille. 2016. Measuring the Accessibility Based on Web Content Accessibility Guidelines. In 2016 Joint Conference of the International Workshop on Software Measurement and the International
+                    Conference on Software Process and Product Measurement (IWSM-MENSURA), IEEE, Berlin, Germany, 164–169. DOI:https://doi.org/10.1109/IWSM-Mensura.2016.032</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
