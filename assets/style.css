@@ -91,6 +91,7 @@ h1 {
 }
 
 #btn-scroll {
+    color: #031D44 !important;
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -107,7 +108,6 @@ h1 {
     /* Remove outline */
     background-color: transparent;
     /* Set a background color */
-    color: #042B66;
     /* Text color */
     cursor: pointer;
     /* Add a mouse pointer on hover */
@@ -120,8 +120,7 @@ h1 {
 
 #btn-scroll:hover {
     background-color: #042B66;
-    ;
-    color: #fff;
+    color: #fff !important;
 }
 
 .mimic-button {
